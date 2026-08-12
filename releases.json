@@ -2,6 +2,16 @@
   "schema": 1,
   "releases": [
     {
+      "version": "1.1.2-beta",
+      "build": 8,
+      "channel": "beta",
+      "notes": "- **You can undo a pickup or drop-off.** The app no longer asks \"are you sure?\"\n  for every student — one tap moves them to the completed list. For 30 seconds\n  after that you can take it back: tap **UNDO** on the message at the bottom of\n  the screen, or tap the ring on the student's row. Nothing is sent to the\n  office and no parent is texted until those 30 seconds are up, so an undo\n  leaves no trace.\n- **Weak signal no longer loses a student.** If a pickup cannot be saved the\n  app keeps trying for a few seconds before it tells you. Anyone it still could\n  not save comes back to the pending list with a message naming them, so you\n  know exactly who to redo.\n- **Scanning a tag for someone already done now says so**, by name, instead of\n  telling you the tag is not registered.\n- **You can tick a student off by name during tag roll call.** Search the list\n  on the scanning screen and tap the student. A tag that will not read no\n  longer sends you back to the manual screen and loses the scans you have\n  already taken. Pressing back closes the search first, so you cannot leave the\n  roll call by accident.\n- **The refresh button on the Tags screen now waits a minute between refreshes**\n  and shows a countdown ring while it does. Tapping it early tells you it is\n  already up to date.\n- **The bus only reports its position when it has actually moved**, which uses\n  less of your data. While parked it still checks in every 3 minutes, so\n  anyone following the bus can tell the tracking is alive.",
+      "apkUrl": "https://github.com/noma-srs/noma-driver-releases/releases/download/v1.1.2-beta%2B8/noma-driver-1.1.2-beta%2B8.apk",
+      "apkSize": 59086141,
+      "sha256": "87d59b50681df00cbbd0cfcdcfec9181dc277db97ed159d0a906e579abd2c7c7",
+      "publishedAt": "2026-08-12T15:59:15Z"
+    },
+    {
       "version": "1.1.1",
       "build": 7,
       "channel": "stable",
