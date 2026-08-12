@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "releases": [
+    {
+      "version": "1.1.1",
+      "build": 7,
+      "channel": "stable",
+      "notes": "- **Report Incident works again.** Tapping it now opens straight away instead of\n  sometimes doing nothing for a few seconds.\n- **You can change your own password.** Open **Profile** and tap **Change\n  Password**. There is no code by SMS — enter your current password, then your\n  new one twice.\n- **Check a trip before you start it.** Tap a prepared trip to see the students\n  on it. Starting a trip texts every parent that the bus is on its way, so you\n  no longer have to start one just to see who is on the run. **Start** is still\n  its own button on the card.\n- **The bus reports its position every 15 seconds** while a trip is running,\n  instead of once a minute, so parents following the bus see it moving.",
+      "apkUrl": "https://github.com/noma-srs/noma-driver-releases/releases/download/v1.1.1%2B7/noma-driver-1.1.1%2B7.apk",
+      "apkSize": 58840325,
+      "sha256": "4ce6a750e25fa3b352267c8eedf736419642f6e94e6e980bb0ac089a991f1cd7",
+      "publishedAt": "2026-08-12T12:32:14Z"
+    }
+  ]
+}
