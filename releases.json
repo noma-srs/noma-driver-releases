@@ -2,6 +2,16 @@
   "schema": 1,
   "releases": [
     {
+      "version": "1.1.3-beta",
+      "build": 9,
+      "channel": "beta",
+      "notes": "- **The app walkthrough no longer loses its place.** The tour used to stop\n  explaining itself part-way through: it would highlight a button hidden behind\n  a pop-up, or point at something on a screen you had not reached yet and then\n  quietly disappear. It now walks you through the trip-created message, the roll\n  call scanning screen, and each step of assigning and checking a tag.\n- **Changing your password works again.** The app was sending the request to the\n  wrong address.",
+      "apkUrl": "https://github.com/noma-srs/noma-driver-releases/releases/download/v1.1.3-beta%2B9/noma-driver-1.1.3-beta%2B9.apk",
+      "apkSize": 59086141,
+      "sha256": "b1d8c279b79e15c862d3051dc2b10ad6640274d27d40bc01cb37ec6a38ec6fd0",
+      "publishedAt": "2026-08-16T17:12:50Z"
+    },
+    {
       "version": "1.1.2-beta",
       "build": 8,
       "channel": "beta",
