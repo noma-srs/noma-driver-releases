@@ -3,6 +3,16 @@
   "releases": [
     {
       "version": "1.3.0-beta",
+      "build": 16,
+      "channel": "beta",
+      "notes": "- **Times are right again, on the phone and on the dashboard.** A student\n  marked absent showed a time three hours into the future, and pickups and\n  drop-offs arrived on the dashboard three hours early. Both were the same\n  mistake, in opposite directions. Every time the app shows you, and every\n  time it records, is now the time on your phone.\n- **Fixed the scanner not working when a drop-off starts.** After taking roll\n  call by scanning tags, the pickup/drop-off screen would not read a tag until\n  you left the screen and came back. The roll call screen was releasing the\n  reader on its way out, after the next screen had already picked it up.\n- **The walkthrough now teaches the scanning roll call.** The drop-off part of\n  the guided tour used to send you out to the manual list, which is not the\n  screen you actually use. It stays on the scanning screen now: everyone\n  starts marked present — the tour's tags are not real — and you tap a child\n  to mark them absent, then confirm.",
+      "apkUrl": "https://github.com/noma-srs/noma-driver-releases/releases/download/v1.3.0-beta%2B16/noma-driver-1.3.0-beta%2B16.apk",
+      "apkSize": 60378112,
+      "sha256": "d20a022584cd8c3859f64f18634afa700661e54d47d09899a823aefaa744fcfb",
+      "publishedAt": "2026-08-21T23:59:04Z"
+    },
+    {
+      "version": "1.3.0-beta",
       "build": 15,
       "channel": "beta",
       "notes": "- **The bus now reports its position on the map more often.** While a trip is\n  running the app sends its location every 15 seconds, rather than only after\n  the bus has moved or once every few minutes. Positions taken where there is\n  no signal are held on the phone and sent when signal comes back, so a\n  stretch of road with no coverage no longer leaves a gap. Nothing changes on\n  screen and nothing is needed from you.",
