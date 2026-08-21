@@ -2,6 +2,16 @@
   "schema": 1,
   "releases": [
     {
+      "version": "1.3.0-beta",
+      "build": 14,
+      "channel": "beta",
+      "notes": "- **Trip times were three hours early.** A trip you prepared at 09:05 showed\n  06:05 on its card, and every other time in the app was out by the same\n  amount. Times now read correctly.\n- **A finished trip offers to end itself.** On a drop-off it asks once the last\n  student is off the bus; on a pickup it waits until you are back at the\n  school. There is a countdown you can stop to keep the trip open — nothing\n  ends without giving you the chance to say no.\n- **Scanning a tag that is not on today's run now names the student.** If the\n  card belongs to a child at your school, the app says who it is and offers to\n  add them to the trip and mark them collected in one tap, instead of only\n  telling you the card was not on the list.\n- **Trip cards show how many students are on the run**, and how many of them\n  someone has reported absent.\n- **Absences reported by someone else are shown before you set off**, not when\n  you get to the stop. Starting a trip texts every guardian, so the moment\n  before is the last one where this costs nothing. If there is nothing to\n  report you will not see it.\n- **Roll call: search for a student and tick them off by hand** when a tag will\n  not read — without leaving the scanner and losing the scans you have already\n  taken.\n- **\"Manual Roll Call\" now only appears at schools still handing tags out.**\n  Everywhere else the scanner, plus searching and ticking, is the whole of it.\n- **Fixed \"incident template not found\" when reporting an incident.** Report\n  Incident now offers six built-in types — Breakdown, Delay, Mechanical Issue,\n  Traffic, Accident and Other — each with a sample sentence you can edit before\n  sending. It needs nothing downloaded first, so it works with no signal. The\n  screen no longer tells you in advance whether guardians will be texted; the\n  confirmation afterwards says what actually happened.\n- **Privacy Policy opens.** It opens inside the app rather than doing nothing,\n  and tells you if it cannot. Terms & Conditions and Help & Support are hidden\n  until they have somewhere to go.",
+      "apkUrl": "https://github.com/noma-srs/noma-driver-releases/releases/download/v1.3.0-beta%2B14/noma-driver-1.3.0-beta%2B14.apk",
+      "apkSize": 60378112,
+      "sha256": "9e65dc3c995bafc8f8422dd1c9d3e97b2a70f2b1858b493e4ea840b77ecaa2df",
+      "publishedAt": "2026-08-21T14:31:24Z"
+    },
+    {
       "version": "1.1.3-beta",
       "build": 9,
       "channel": "beta",
