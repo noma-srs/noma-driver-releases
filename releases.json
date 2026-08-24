@@ -3,6 +3,16 @@
   "releases": [
     {
       "version": "1.3.0",
+      "build": 18,
+      "channel": "stable",
+      "notes": "- **Test update.** This update has no new features or fixes, it is just a test of the update system. ",
+      "apkUrl": "https://github.com/noma-srs/noma-driver-releases/releases/download/v1.3.0%2B18/noma-driver-1.3.0%2B18.apk",
+      "apkSize": 60378108,
+      "sha256": "7c307a615e7d8bfc034d334aa337897cc48ec8c611eeb2ba41c0134c5ef01349",
+      "publishedAt": "2026-08-24T08:27:32Z"
+    },
+    {
+      "version": "1.3.0",
       "build": 17,
       "channel": "stable",
       "notes": "- **The walkthrough lets you practise scanning for real.** The guided tour's\n  roll call used to arrive with every child already marked present, so the one\n  thing you do on that screen every afternoon — hold a tag against the phone —\n  was the one thing it never showed you. Now it starts empty, like the real\n  screen. Hold any student tag against the phone and it reads, including the\n  cards you already carry, which the tour used to turn away as not registered\n  to a student on this trip. No tag to hand? Tap \"Skip\" in the top corner.\n  Either way all three children on the practice trip are marked present and\n  the tour carries on. Nothing about a real roll call changes.",
