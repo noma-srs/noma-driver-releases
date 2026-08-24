@@ -2,6 +2,16 @@
   "schema": 1,
   "releases": [
     {
+      "version": "1.4.1",
+      "build": 20,
+      "channel": "stable",
+      "notes": "- **Fixes version 1.4.0, which would not start on most phones.** That update\n  was built for one type of phone processor and crashed immediately on every\n  other, before the app was far enough along to offer an update out of it. If\n  your app stopped opening after updating to 1.4.0, install this version by\n  hand from the releases page — the app cannot repair itself once it is in that\n  state. Everything new in 1.4.0 is here and unchanged.",
+      "apkUrl": "https://github.com/noma-srs/noma-driver-releases/releases/download/v1.4.1%2B20/noma-driver-1.4.1%2B20.apk",
+      "apkSize": 60394684,
+      "sha256": "fbf80d8d260b781044602da865683ea8a75277ad6c5ed3b90bc54372869262ba",
+      "publishedAt": "2026-08-24T12:28:57Z"
+    },
+    {
       "version": "1.4.0",
       "build": 19,
       "channel": "stable",
