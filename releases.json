@@ -2,6 +2,16 @@
   "schema": 1,
   "releases": [
     {
+      "version": "1.4.0",
+      "build": 19,
+      "channel": "stable",
+      "notes": "- **The scanner starts reliably when you open a roll call.** Opening the roll\n  call straight after another screen that had been scanning could leave the\n  reader dead for the whole roll call — tags simply did nothing, and the only\n  way out was to back out of the screen and open it again. Fixed.\n\n- **Children reported absent now show on the roll call.** If a parent or the\n  school has already phoned a child in as absent, they appear on the scan roll\n  call marked as such, with who reported it and when — instead of sitting in\n  the list looking exactly like a child you have not scanned yet. They also\n  come out of the \"X of Y scanned\" count, so the count reaches the end when the\n  roll call is actually finished. If the child turns up anyway, scan their tag\n  as normal and they move across.\n\n- **Changing your bus now shows on the Home screen straight away.** Picking a\n  different bus in Profile used to leave the old number plate on the Home\n  header until the app was restarted.\n\n- **The running trip screen names the schedule.** The trip you are on now says\n  which run it is — \"Morning Pickup\", \"Afternoon Drop Off\" — under the Pickup\n  or Drop Off heading, so a bus doing two runs is not one glance away from\n  confusion.\n\n- **The end of a trip gives you a summary.** After ending a trip you now see\n  which run it was, when it started and ended, how long it took, and how many\n  children were picked up or dropped off and how many were absent.\n\n- **The app download is about a third of the size.** Around 20MB instead of\n  58MB, so an update over mobile data finishes far sooner.",
+      "apkUrl": "https://github.com/noma-srs/noma-driver-releases/releases/download/v1.4.0%2B19/noma-driver-1.4.0%2B19-armeabi-v7a.apk",
+      "apkSize": 19688098,
+      "sha256": "29fa203f250967674e2f00e7c06c2b5b82cca5efc1fbea8388bf3baa7e9ad8d4",
+      "publishedAt": "2026-08-24T11:43:03Z"
+    },
+    {
       "version": "1.3.0",
       "build": 18,
       "channel": "stable",
