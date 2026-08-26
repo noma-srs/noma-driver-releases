@@ -2,6 +2,16 @@
   "schema": 1,
   "releases": [
     {
+      "version": "1.5.0-beta",
+      "build": 21,
+      "channel": "beta",
+      "notes": "- **The bus stays on the map for the whole route.** Live tracking could stop\n  part way through a trip and never come back, with nothing on the phone to say\n  it had — the app looked fine from the driver's seat while the bus vanished\n  from the school's map. Several separate causes are fixed: moving between the\n  school's Wi-Fi and mobile data, the phone shutting the app down in the\n  background during a long route, and driving through a tunnel or a dead spot,\n  which used to leave a hole in the route instead of filling it in afterwards.\n\n- **You are told if tracking does not start.** Starting a pickup whose tracking\n  failed to start used to run the entire route untracked without a word. It now\n  says so on screen, and the trip still starts — parents have already been\n  texted that the bus is on its way, so nothing is cancelled.\n\n- **If location is switched off on the phone, the app says so before you set\n  off.** You get the choice of opening the phone's settings to turn it back on,\n  or starting the trip anyway. Either way the trip starts — this is a warning,\n  not a lock. With location off there is no tracking at all for the whole route,\n  which is why it is worth stopping for.\n\n- **The bus reports its position the moment you press Start**, rather than up to\n  fifteen seconds later, so it appears on the map straight away instead of\n  seeming not to have left.\n\n- **A phone set up from another phone's backup no longer breaks tracking on\n  both.** Two handsets restored from the same backup could quietly knock each\n  other off tracking, each one reporting itself as healthy.",
+      "apkUrl": "https://github.com/noma-srs/noma-driver-releases/releases/download/v1.5.0-beta%2B21/noma-driver-1.5.0-beta%2B21.apk",
+      "apkSize": 60656956,
+      "sha256": "9b4ae9d06cad06ab1367baa9b421af6bfca12a5739deed6c7b898df45f1aa6bf",
+      "publishedAt": "2026-08-26T16:29:03Z"
+    },
+    {
       "version": "1.4.1",
       "build": 20,
       "channel": "stable",
