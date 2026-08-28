@@ -2,6 +2,16 @@
   "schema": 1,
   "releases": [
     {
+      "version": "1.5.1",
+      "build": 24,
+      "channel": "stable",
+      "notes": "Everything from the beta builds since 1.4.1, in one update.\n\n- **Your roll call is no longer lost if the phone closes the app.** Scans and\n  ticks come back when you reopen the trip, for up to twelve hours.\n\n- **You can undo an absence.** Tap the × beside a student on the Absent tab. It\n  works for absences a parent or the school reported too, so a child who turns\n  up after being phoned in can still be marked as on the bus.\n\n- **The Tags list can be filtered** by tagged or untagged and by schedule, so\n  you can work through just the children on one run instead of the whole school.\n\n- **Hold \"Check for updates\" in Profile for five seconds to re-download\n  everything** — buses, schedules and students. For when what the phone shows\n  looks out of date.\n\n- **The bus stays on the map for the whole route.** Tracking could stop part way\n  through and never come back, with nothing on the phone to say so. Moving\n  between the school's Wi-Fi and mobile data, long routes, and tunnels and dead\n  spots are all fixed, and the bus now appears on the map the moment you press\n  Start.\n\n- **You are told if tracking does not start, and if location is switched off on\n  the phone** before you set off. The trip still starts either way — these are\n  warnings, not locks.\n\n- **Fixed the Submit button on Prepare Trip staying grey** after picking a\n  schedule. It now says \"Choose a bus to continue\", and your own bus is always\n  there to pick even if the app's copy of the bus list is out of date.\n\n- **The walkthrough shows a bar at the top while it is running**, with a Stop\n  button so you can leave it from any screen, and it no longer gets stuck part\n  way through leaving practice data on screen.",
+      "apkUrl": "https://github.com/noma-srs/noma-driver-releases/releases/download/v1.5.1%2B24/noma-driver-1.5.1%2B24.apk",
+      "apkSize": 60951992,
+      "sha256": "ec8c1f2e9e0752dd28db7d6694338a2837130e56050fe3fc8e89455fed88bf2d",
+      "publishedAt": "2026-08-28T10:18:08Z"
+    },
+    {
       "version": "1.5.0-beta",
       "build": 23,
       "channel": "beta",
