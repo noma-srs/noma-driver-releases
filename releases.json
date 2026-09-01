@@ -2,6 +2,16 @@
   "schema": 1,
   "releases": [
     {
+      "version": "1.5.2-beta",
+      "build": 25,
+      "channel": "beta",
+      "notes": "Fixes for things that were going wrong quietly, where the app either said\nnothing or said the wrong thing, plus a way past a roll call when the tag\nreader will not co-operate.\n\n- **The app now tells you when a trip is not being tracked.** If the location\n  permission has been lost — which can happen when the app updates itself — you\n  get a message before the run, with a button to fix it in Settings. The trip\n  still starts either way; it is your call.\n\n- **And it tells you if tracking starts but no location is ever sent.** Before,\n  a trip could report a healthy start and then send nothing for the whole route,\n  with nothing on screen to say so.\n\n- **Updates no longer start again from the beginning when they fail.** A\n  download that gets cut off now picks up where it stopped, and retries by\n  itself before bothering you.\n\n- **The app checks there is room before downloading an update.** If the phone is\n  too full it says so up front, instead of failing near the end with a message\n  that explained nothing.\n\n- **Your offline data stops re-downloading itself.** On some phones the roster\n  was being fetched in full every time the app opened, which was slow on school\n  Wi-Fi and did not need to happen.\n\n- **Roll call has a Skip button, for when you have no tag to hand.** If the\n  reader will not read, or you are holding no card at all, Skip marks everyone\n  on the trip present so you can get going. It asks first and tells you how\n  many students that is, and you mark anyone who is not there absent on the\n  next screen as usual. Before this, a roll call you could not scan left you\n  with nothing to do but confirm a bus full of absences.\n\n- **The app asks before you mark a child present who was reported absent.** If\n  a parent or the school has phoned a child in as not coming and they turn up\n  at the bus anyway, tapping their name now says who reported it before it\n  changes anything. Tapping again to undo never asks.\n\n- **Every pickup, drop-off and absence now records where the bus was.** The\n  position is the one from the moment you tapped, not from whenever the phone\n  next got signal.\n\n- **Holding \"Check for updates\" to resync takes ten seconds now, not five**, and\n  the bar along the bottom of the row is gone.\n\n- **The app uses noticeably less data while a trip is running.** It was opening\n  a brand-new secure connection for every position it sent — four times a\n  minute, all route long — and now keeps one open instead.\n\n---",
+      "apkUrl": "https://github.com/noma-srs/noma-driver-releases/releases/download/v1.5.2-beta%2B25/noma-driver-1.5.2-beta%2B25.apk",
+      "apkSize": 61263420,
+      "sha256": "c1f5e4a87d97feacf93f5b8c5c99c1fbf7703f9c9a9d40337acc0e34c0dda33b",
+      "publishedAt": "2026-09-01T12:49:55Z"
+    },
+    {
       "version": "1.5.1",
       "build": 24,
       "channel": "stable",
