@@ -3,6 +3,16 @@
   "releases": [
     {
       "version": "1.5.2",
+      "build": 29,
+      "channel": "stable",
+      "notes": "- **\"Manual Roll Call\" is available again at The Ark.** The school is still\n  handing tags out, so the manual list is back alongside the scanner there.",
+      "apkUrl": "https://github.com/noma-srs/noma-driver-releases/releases/download/v1.5.2%2B29/noma-driver-1.5.2%2B29.apk",
+      "apkSize": 61328952,
+      "sha256": "f0fe42bbfbbcf86a58d4f805f0f0dd32592651a7ca70fd8bb219feef24640be2",
+      "publishedAt": "2026-09-04T12:35:47Z"
+    },
+    {
+      "version": "1.5.2",
       "build": 28,
       "channel": "stable",
       "notes": "- **The app now tells you when a schedule belongs to somebody else.** If you\n  prepare a trip on a schedule that lists a different driver, or pick a bus\n  that is not the one the schedule is planned against, it says so before the\n  trip is created. Carry on if you are covering the run — nothing is blocked,\n  and it stays quiet when the schedule says nothing about a driver or a bus.\n\n- **You can search the roll call again while scanning.** If a tag will not\n  read, look the child up by name and tick them present without leaving the\n  scanning screen.\n\n- **The walkthrough now shows you how a trip ends by itself.** The practice\n  drop-off reaches the offer to close the trip, explains it, and gives you\n  time to read it instead of counting down while you do.",
