@@ -3,6 +3,16 @@
   "releases": [
     {
       "version": "1.6.0-beta",
+      "build": 32,
+      "channel": "beta",
+      "notes": "- **App updates are about a third smaller to download.** The app was being\n  built with three copies of itself inside, one for each kind of processor\n  Android runs on, and your handset only ever uses one of them. Two of the\n  three are still there, because the phones and POS units in service need one\n  or the other — but the copy built for desktop test machines is gone. An\n  update that was 58MB is now 38MB. That matters most first thing in the\n  morning, when every handset at a school takes the same update over the same\n  connection at the same time.",
+      "apkUrl": "https://github.com/noma-srs/noma-driver-releases/releases/download/v1.6.0-beta%2B32/noma-driver-1.6.0-beta%2B32.apk",
+      "apkSize": 39890280,
+      "sha256": "d48b7be11084ba5cabb8208ac70759ea49258ef56434aae3a20490bf9691ceb1",
+      "publishedAt": "2026-09-09T21:04:53Z"
+    },
+    {
+      "version": "1.6.0-beta",
       "build": 30,
       "channel": "beta",
       "notes": "- **The \"Empty tag\" and \"New tag collected\" pop-ups are gone.** Android was\n  picking up the card a moment after the app had already read it, and putting\n  its own message over whatever you were doing. It looked like a failed scan\n  when the tag had in fact read correctly. The app now holds the reader for as\n  long as a scanning screen is open, so those messages no longer appear.\n\n- **You can add a child to the roll call by scanning them.** If a tag reads at\n  the bus door and the child is not on the manifest — the wrong bus, or a\n  schedule that has not caught up — the app names them and offers to add them.\n  They go on as present, and are sent with the rest of the roll call when you\n  confirm. Nothing is sent at the moment you scan, so a roll call you leave\n  changes nothing.\n\n- **A roll call that is interrupted keeps children added this way.** If the\n  phone kills the app part-way through, the children you scanned in at the door\n  come back with everyone else.\n\n- **A trip will not start with nobody aboard.** Starting a trip texts every\n  guardian and cannot be undone, so a run with no children on it is a round of\n  messages about a bus nobody is waiting for. If every student on a pickup is\n  marked absent, or a drop-off roll call finishes with nobody present, the app\n  says so and tells you what to check — the wrong schedule, or absences still to\n  clear.\n\n- **The manual roll call asks before recording a full bus.** If you confirm\n  without marking anybody absent, it names the run and checks that every child\n  on it is really at the bus. The manual list opens with everyone already\n  present, so an untouched screen and a checked one look identical at the point\n  you submit.\n\n- **The Tags filters have moved into their own panel.** The button carries a\n  count of the filters you have on, so a narrowed list is no longer mistaken for\n  a small school, and you can search the schedules by name, time or leg — typing\n  `6:30` or `drop` narrows them.",
@@ -190,16 +200,6 @@
       "apkSize": 59086141,
       "sha256": "87d59b50681df00cbbd0cfcdcfec9181dc277db97ed159d0a906e579abd2c7c7",
       "publishedAt": "2026-08-12T15:59:15Z"
-    },
-    {
-      "version": "1.1.1",
-      "build": 7,
-      "channel": "stable",
-      "notes": "- **Report Incident works again.** Tapping it now opens straight away instead of\n  sometimes doing nothing for a few seconds.\n- **You can change your own password.** Open **Profile** and tap **Change\n  Password**. There is no code by SMS — enter your current password, then your\n  new one twice.\n- **Check a trip before you start it.** Tap a prepared trip to see the students\n  on it. Starting a trip texts every parent that the bus is on its way, so you\n  no longer have to start one just to see who is on the run. **Start** is still\n  its own button on the card.\n- **The bus reports its position every 15 seconds** while a trip is running,\n  instead of once a minute, so parents following the bus see it moving.",
-      "apkUrl": "https://github.com/noma-srs/noma-driver-releases/releases/download/v1.1.1%2B7/noma-driver-1.1.1%2B7.apk",
-      "apkSize": 58840325,
-      "sha256": "4ce6a750e25fa3b352267c8eedf736419642f6e94e6e980bb0ac089a991f1cd7",
-      "publishedAt": "2026-08-12T12:32:14Z"
     }
   ]
 }
