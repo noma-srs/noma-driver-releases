@@ -2,6 +2,16 @@
   "schema": 1,
   "releases": [
     {
+      "version": "1.6.0-beta",
+      "build": 30,
+      "channel": "beta",
+      "notes": "- **The \"Empty tag\" and \"New tag collected\" pop-ups are gone.** Android was\n  picking up the card a moment after the app had already read it, and putting\n  its own message over whatever you were doing. It looked like a failed scan\n  when the tag had in fact read correctly. The app now holds the reader for as\n  long as a scanning screen is open, so those messages no longer appear.\n\n- **You can add a child to the roll call by scanning them.** If a tag reads at\n  the bus door and the child is not on the manifest — the wrong bus, or a\n  schedule that has not caught up — the app names them and offers to add them.\n  They go on as present, and are sent with the rest of the roll call when you\n  confirm. Nothing is sent at the moment you scan, so a roll call you leave\n  changes nothing.\n\n- **A roll call that is interrupted keeps children added this way.** If the\n  phone kills the app part-way through, the children you scanned in at the door\n  come back with everyone else.\n\n- **A trip will not start with nobody aboard.** Starting a trip texts every\n  guardian and cannot be undone, so a run with no children on it is a round of\n  messages about a bus nobody is waiting for. If every student on a pickup is\n  marked absent, or a drop-off roll call finishes with nobody present, the app\n  says so and tells you what to check — the wrong schedule, or absences still to\n  clear.\n\n- **The manual roll call asks before recording a full bus.** If you confirm\n  without marking anybody absent, it names the run and checks that every child\n  on it is really at the bus. The manual list opens with everyone already\n  present, so an untouched screen and a checked one look identical at the point\n  you submit.\n\n- **The Tags filters have moved into their own panel.** The button carries a\n  count of the filters you have on, so a narrowed list is no longer mistaken for\n  a small school, and you can search the schedules by name, time or leg — typing\n  `6:30` or `drop` narrows them.",
+      "apkUrl": "https://github.com/noma-srs/noma-driver-releases/releases/download/v1.6.0-beta%2B30/noma-driver-1.6.0-beta%2B30.apk",
+      "apkSize": 61329132,
+      "sha256": "b6a96d8c5403ee28e160c1d1869da7368ae8774e92351bd86845e32a25a15962",
+      "publishedAt": "2026-09-09T11:34:28Z"
+    },
+    {
       "version": "1.5.2",
       "build": 29,
       "channel": "stable",
