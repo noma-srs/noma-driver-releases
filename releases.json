@@ -2,6 +2,16 @@
   "schema": 1,
   "releases": [
     {
+      "version": "1.6.0",
+      "build": 35,
+      "channel": "stable",
+      "notes": "Everything here has been running on the beta builds since 1.5.2. This is the\nsame work, now on the stable channel for everybody.\n\n- **Pick Up or Drop Off is now a choice at the top of the trip sheet, and the\n  schedule list follows it.** The list used to be every run in the school's\n  timetable with yours somewhere in it. Now it shows the schedules for the leg\n  you picked and the bus you picked, and if what you want is not there, the\n  last row of the open list offers the rest and says how many.\n\n- **Buttons say when they are working.** Tapping Start, Submit, Confirm Roll\n  Call or End Trip now turns that button into a spinner and stops it taking\n  another tap until it is done. Some of them used to sit there looking\n  untapped for as long as the request took, which on a weak signal is several\n  seconds — so the natural thing to do was tap again, and on the roll call\n  that could record the same attendance twice and start the same trip twice.\n\n- **Signing in no longer looks like it ignored you.** On a slow connection the\n  spinner on the login and password screens faded itself away after about two\n  seconds and left a blank space where the button had been.\n\n- **The \"Empty tag\" and \"New tag collected\" pop-ups are gone.** Android was\n  picking the card up a moment after the app had already read it, and putting\n  its own message over what you were doing. It looked like a failed scan when\n  the tag had in fact read correctly. The app now holds the reader for as long\n  as the scanning screen is open, so those messages no longer appear.\n\n- **You can add a child to the roll call by scanning them.** If a tag reads at\n  the bus door and the child is not on the manifest — the wrong bus, or the\n  schedule has not caught up — the app names them and offers to add them. They\n  go on as present, and are sent with the rest of the roll call when you\n  confirm. Nothing is sent the moment you scan, so a roll call you leave still\n  changes nothing.\n\n- **A roll call interrupted keeps the children added that way.** If the phone\n  kills the app part-way through, the children you scanned in at the door come\n  back with everyone else.\n\n- **A trip will not start with nobody aboard.** Starting a trip texts every\n  guardian and cannot be undone, so a run with no children on it sends a round\n  of messages about a bus nobody is waiting for. If every student on a pickup\n  is marked absent, or a drop-off roll call finishes with nobody present, the\n  app says so and tells you what to check — the wrong schedule, or absences\n  still to clear.\n\n- **The manual roll call asks before recording a full bus.** If you confirm\n  without marking anybody absent, it names the run and checks that every child\n  on it is really on the bus. The manual list opens with everyone already\n  present, so an untouched screen and a checked one look identical at the\n  point you submit.\n\n- **The Tags filters moved into a panel of their own.** The button carries a\n  count of the filters you are on, so a narrowed list can no longer be\n  mistaken for a small school, and you can search schedules by name, time or\n  leg — typing `6:30` or `drop` narrows them.\n\n- **App updates are about a third smaller to download.** The app was being\n  built with three copies of itself inside, one for each kind of processor\n  Android runs on, and your handset only ever uses one of them. Two of the\n  three are still there, because the phones and the POS units in service need\n  one or the other — but the copy built for desktop test machines is gone. An\n  update that was 58MB is now 38MB. That matters most first thing in the\n  morning, when every handset at a school takes the same update over the same\n  connection at the same time.\n\n- **Fixed the app walkthrough refusing to start its own practice trip.** The\n  guided tour would reach \"Start the trip\", say the trip had no students on\n  it, and then quietly end. The tour also now shows you the check that names\n  the children a parent has already phoned in absent, which is a real screen\n  you meet before every trip.\n\n- Internal diagnostics only — nothing changes on screen. The app keeps a short\n  record of how it has been using the network, so a fault can be traced\n  without having to ask you what happened. It was starting a new record every\n  time the screen locked or a pop-up appeared, and there is only room for so\n  many — so near-empty records were pushing out the ones about your trips,\n  which are the ones worth keeping. A student's tag number was also ending up\n  in that record whenever the app looked a card up; it no longer is.",
+      "apkUrl": "https://github.com/noma-srs/noma-driver-releases/releases/download/v1.6.0%2B35/noma-driver-1.6.0%2B35.apk",
+      "apkSize": 39906692,
+      "sha256": "fd4e3325f03592cd90707ea4b315d0dcbf6f185c44b440f16c35fc3680385c91",
+      "publishedAt": "2026-09-14T12:34:03Z"
+    },
+    {
       "version": "1.6.0-beta",
       "build": 34,
       "channel": "beta",
@@ -190,16 +200,6 @@
       "apkSize": 60378112,
       "sha256": "9e65dc3c995bafc8f8422dd1c9d3e97b2a70f2b1858b493e4ea840b77ecaa2df",
       "publishedAt": "2026-08-21T14:31:24Z"
-    },
-    {
-      "version": "1.1.3-beta",
-      "build": 9,
-      "channel": "beta",
-      "notes": "- **The app walkthrough no longer loses its place.** The tour used to stop\n  explaining itself part-way through: it would highlight a button hidden behind\n  a pop-up, or point at something on a screen you had not reached yet and then\n  quietly disappear. It now walks you through the trip-created message, the roll\n  call scanning screen, and each step of assigning and checking a tag.\n- **Changing your password works again.** The app was sending the request to the\n  wrong address.",
-      "apkUrl": "https://github.com/noma-srs/noma-driver-releases/releases/download/v1.1.3-beta%2B9/noma-driver-1.1.3-beta%2B9.apk",
-      "apkSize": 59086141,
-      "sha256": "b1d8c279b79e15c862d3051dc2b10ad6640274d27d40bc01cb37ec6a38ec6fd0",
-      "publishedAt": "2026-08-16T17:12:50Z"
     }
   ]
 }
