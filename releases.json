@@ -2,6 +2,16 @@
   "schema": 1,
   "releases": [
     {
+      "version": "1.6.1",
+      "build": 36,
+      "channel": "stable",
+      "notes": "Seven fixes, most of them on the roll call.\n\n- **The roll call no longer counts everyone twice.** Submitting a roll call\n  for twenty children could report twenty present *and* twenty absent, with\n  the second twenty all marked away. Nothing wrong ever reached the office —\n  it was the lists on your screen that had doubled up — but there was no way\n  to tell that from the bus. The manifest is now cleaned as it arrives, so\n  the counts you see are the counts that were sent.\n\n- **Searching the roll call no longer throws you out of the search.** Typing\n  a name and then scrolling the results used to drop the keyboard, lose the\n  search and put you back on the scanned list mid-scroll, so looking a child\n  up meant starting over. You can now read through the results, and the\n  search stays open until you close it.\n\n- **The list is no longer half-hidden behind the keyboard.** The Confirm\n  button steps out of the way while you are typing and comes straight back\n  when the keyboard goes, which leaves room for the names instead of two\n  rows and a scroll bar.\n\n- **A roll call kept in progress when you go back to the home screen.** It\n  already survived the phone killing the app; now it survives you stepping\n  out to check something and coming back. Leaving no longer throws away the\n  children you have already scanned or ticked.\n\n- **A child marked absent cannot be added as a temporary pickup.** Doing so\n  put them on the trip twice — once absent, once picked up — and quietly\n  overruled an absence a parent may have phoned in. The app now says who it\n  is and points you at the Absent tab to unmark them first. Absent children\n  are marked as such in the temporary pickup list, so you can see it before\n  you tap.\n\n- **The app tells you when there is a newer version, once, as it opens.** It\n  shows the version number and a *Download later* button, and nothing else —\n  no download starts, and you can install it whenever you choose from\n  Profile → Check for updates. Opening the app at the depot on mobile data\n  should not be one tap away from a 40MB transfer.\n\n- **Times in the office's trip records now match the clock on your handset.**\n  A drop-off tapped at 16:59 was being filed as 13:58, three hours out, so a\n  write that failed and came back to you was reported at a time that never\n  happened on the route.\n\n- **When the scanner fails to start, the app now records why.** Nothing\n  changes on screen; it means a handset whose reader will not arm can be\n  diagnosed from the office rather than by swapping the phone.\n\n---",
+      "apkUrl": "https://github.com/noma-srs/noma-driver-releases/releases/download/v1.6.1%2B36/noma-driver-1.6.1%2B36.apk",
+      "apkSize": 39923076,
+      "sha256": "6eecc8ac4a8e32bcfc6d9f295ed7c0effe138a0475bbb430316ae6dc8654b83d",
+      "publishedAt": "2026-09-16T00:42:19Z"
+    },
+    {
       "version": "1.6.0",
       "build": 35,
       "channel": "stable",
@@ -190,16 +200,6 @@
       "apkSize": 60378112,
       "sha256": "d01720d462c4348120ad5c968a51167878eb4f69539d49c87e2acbd158788c12",
       "publishedAt": "2026-08-21T15:41:47Z"
-    },
-    {
-      "version": "1.3.0-beta",
-      "build": 14,
-      "channel": "beta",
-      "notes": "- **Trip times were three hours early.** A trip you prepared at 09:05 showed\n  06:05 on its card, and every other time in the app was out by the same\n  amount. Times now read correctly.\n- **A finished trip offers to end itself.** On a drop-off it asks once the last\n  student is off the bus; on a pickup it waits until you are back at the\n  school. There is a countdown you can stop to keep the trip open — nothing\n  ends without giving you the chance to say no.\n- **Scanning a tag that is not on today's run now names the student.** If the\n  card belongs to a child at your school, the app says who it is and offers to\n  add them to the trip and mark them collected in one tap, instead of only\n  telling you the card was not on the list.\n- **Trip cards show how many students are on the run**, and how many of them\n  someone has reported absent.\n- **Absences reported by someone else are shown before you set off**, not when\n  you get to the stop. Starting a trip texts every guardian, so the moment\n  before is the last one where this costs nothing. If there is nothing to\n  report you will not see it.\n- **Roll call: search for a student and tick them off by hand** when a tag will\n  not read — without leaving the scanner and losing the scans you have already\n  taken.\n- **\"Manual Roll Call\" now only appears at schools still handing tags out.**\n  Everywhere else the scanner, plus searching and ticking, is the whole of it.\n- **Fixed \"incident template not found\" when reporting an incident.** Report\n  Incident now offers six built-in types — Breakdown, Delay, Mechanical Issue,\n  Traffic, Accident and Other — each with a sample sentence you can edit before\n  sending. It needs nothing downloaded first, so it works with no signal. The\n  screen no longer tells you in advance whether guardians will be texted; the\n  confirmation afterwards says what actually happened.\n- **Privacy Policy opens.** It opens inside the app rather than doing nothing,\n  and tells you if it cannot. Terms & Conditions and Help & Support are hidden\n  until they have somewhere to go.",
-      "apkUrl": "https://github.com/noma-srs/noma-driver-releases/releases/download/v1.3.0-beta%2B14/noma-driver-1.3.0-beta%2B14.apk",
-      "apkSize": 60378112,
-      "sha256": "9e65dc3c995bafc8f8422dd1c9d3e97b2a70f2b1858b493e4ea840b77ecaa2df",
-      "publishedAt": "2026-08-21T14:31:24Z"
     }
   ]
 }
