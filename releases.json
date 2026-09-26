@@ -2,6 +2,16 @@
   "schema": 1,
   "releases": [
     {
+      "version": "1.6.2-beta",
+      "build": 37,
+      "channel": "beta",
+      "notes": "One new thing: the phone now warns you about a flat battery before a run, not\nduring one.\n\n- **An alarm an hour before your run, if the battery is low.** The app checks\n  the battery an hour before each of your next runs, and if it is at 40% or\n  less it rings — properly, like an alarm clock, over the lock screen — and\n  tells you which run is coming and what the battery is at. You dismiss it the\n  way you would an alarm. One quiet reminder follows, and then it leaves you\n  alone.\n\n  It works with the phone locked, the app closed and no signal at all, because\n  it reads the timetable already on the handset. It only rings on weekdays, and\n  it will not ring if the phone is already on charge.\n\n- **It will not ring while you are driving.** If a trip is already running you\n  get a silent notification instead of a noise, because an alarm going off in a\n  moving bus is worse than a low battery.\n\n- **Snooze it until a date, for the holidays.** Half-term, a week off, a run\n  that is not yours for a fortnight: tap *Snooze until…* on the alarm, or set\n  it in advance from Profile → Pre-trip battery alarm, and pick the day it\n  should start again. You can also see and clear it there. The longest you can\n  snooze is about two and a half months.\n\n---",
+      "apkUrl": "https://github.com/noma-srs/noma-driver-releases/releases/download/v1.6.2-beta%2B37/noma-driver-1.6.2-beta%2B37.apk",
+      "apkSize": 40352917,
+      "sha256": "e32cd2893a928f0f1120e173e7537e89d79385dc4193291b26f6207c1419c101",
+      "publishedAt": "2026-09-26T10:04:54Z"
+    },
+    {
       "version": "1.6.1",
       "build": 36,
       "channel": "stable",
@@ -190,16 +200,6 @@
       "apkSize": 60378112,
       "sha256": "d20a022584cd8c3859f64f18634afa700661e54d47d09899a823aefaa744fcfb",
       "publishedAt": "2026-08-21T23:59:04Z"
-    },
-    {
-      "version": "1.3.0-beta",
-      "build": 15,
-      "channel": "beta",
-      "notes": "- **The bus now reports its position on the map more often.** While a trip is\n  running the app sends its location every 15 seconds, rather than only after\n  the bus has moved or once every few minutes. Positions taken where there is\n  no signal are held on the phone and sent when signal comes back, so a\n  stretch of road with no coverage no longer leaves a gap. Nothing changes on\n  screen and nothing is needed from you.",
-      "apkUrl": "https://github.com/noma-srs/noma-driver-releases/releases/download/v1.3.0-beta%2B15/noma-driver-1.3.0-beta%2B15.apk",
-      "apkSize": 60378112,
-      "sha256": "d01720d462c4348120ad5c968a51167878eb4f69539d49c87e2acbd158788c12",
-      "publishedAt": "2026-08-21T15:41:47Z"
     }
   ]
 }
