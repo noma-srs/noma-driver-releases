@@ -2,6 +2,16 @@
   "schema": 1,
   "releases": [
     {
+      "version": "1.6.3-beta",
+      "build": 38,
+      "channel": "beta",
+      "notes": "- **Updates download themselves.** When a new version is out, the app downloads\n  it in the background, over Wi-Fi or mobile data, and then asks: install now,\n  or later. It never asks while you are on a trip. A download that finishes\n  during a trip waits until you are back on the home screen.\n- **The app walkthrough is in parts.** Tap App Walkthrough in Profile and pick\n  one: a pickup trip, a drop-off trip, or student tags. Each is short and runs\n  on its own, so you can practise just the part you need.\n- **Logging out clears this phone.** The school's students, buses and\n  schedules, any unfinished roll call, and any pre-trip alarm snooze are removed\n  when you log out. The next driver to sign in starts clean and downloads their\n  own school's data.\n- **Fixed a crash in Prepare Trip** during the pickup walkthrough in the\n  afternoon.\n- **The walkthrough waits for the screen to settle** before pointing at the\n  next thing, instead of pointing while a panel is still sliding in or out.\n- **Schedule times show as 06:30 again**, not 06:30:00.",
+      "apkUrl": "https://github.com/noma-srs/noma-driver-releases/releases/download/v1.6.3-beta%2B38/noma-driver-1.6.3-beta%2B38.apk",
+      "apkSize": 40516993,
+      "sha256": "3a01cad00bca6049338343c8147119b091275cc4a5454b932101d06ded4ea2c4",
+      "publishedAt": "2026-10-04T01:11:53Z"
+    },
+    {
       "version": "1.6.2-beta",
       "build": 37,
       "channel": "beta",
@@ -190,16 +200,6 @@
       "apkSize": 60378108,
       "sha256": "f7b3812feb7b326d4457f56020be304b79bd01d24babad38044d43b9722bb038",
       "publishedAt": "2026-08-24T07:38:03Z"
-    },
-    {
-      "version": "1.3.0-beta",
-      "build": 16,
-      "channel": "beta",
-      "notes": "- **Times are right again, on the phone and on the dashboard.** A student\n  marked absent showed a time three hours into the future, and pickups and\n  drop-offs arrived on the dashboard three hours early. Both were the same\n  mistake, in opposite directions. Every time the app shows you, and every\n  time it records, is now the time on your phone.\n- **Fixed the scanner not working when a drop-off starts.** After taking roll\n  call by scanning tags, the pickup/drop-off screen would not read a tag until\n  you left the screen and came back. The roll call screen was releasing the\n  reader on its way out, after the next screen had already picked it up.\n- **The walkthrough now teaches the scanning roll call.** The drop-off part of\n  the guided tour used to send you out to the manual list, which is not the\n  screen you actually use. It stays on the scanning screen now: everyone\n  starts marked present — the tour's tags are not real — and you tap a child\n  to mark them absent, then confirm.",
-      "apkUrl": "https://github.com/noma-srs/noma-driver-releases/releases/download/v1.3.0-beta%2B16/noma-driver-1.3.0-beta%2B16.apk",
-      "apkSize": 60378112,
-      "sha256": "d20a022584cd8c3859f64f18634afa700661e54d47d09899a823aefaa744fcfb",
-      "publishedAt": "2026-08-21T23:59:04Z"
     }
   ]
 }
