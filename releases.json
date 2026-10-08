@@ -2,6 +2,16 @@
   "schema": 1,
   "releases": [
     {
+      "version": "1.6.4-beta",
+      "build": 39,
+      "channel": "beta",
+      "notes": "- **You hear about absences during the trip.** If a parent or the school\n  reports a child absent after you have set off, the app moves the child to\n  Absent and tells you, so you do not wait at their stop. If the absence is\n  taken back, the child goes back on your list and the app tells you that too.\n  A child you have already picked up, dropped off or marked yourself is not\n  changed.\n- **Plugging in answers the battery alarm.** Putting the phone on charge\n  stops the ring and clears the reminder, the same as tapping Dismiss.\n- **The battery reminder can be swiped away**, and it goes by itself once\n  the run starts.\n- **Dismissing the alarm from the notification closes the alarm screen** as\n  well, instead of leaving it open behind.\n- **The absent-students list before a trip can only be closed with its\n  buttons.** The back gesture no longer cancels it before you have read the\n  names.\n- **Notifications show the NoMa logo** in the status bar instead of a plain\n  square.",
+      "apkUrl": "https://github.com/noma-srs/noma-driver-releases/releases/download/v1.6.4-beta%2B39/noma-driver-1.6.4-beta%2B39.apk",
+      "apkSize": 40751528,
+      "sha256": "ae75ec4ccac788329859448acdb82ce1dab1c248c7b4e5f578ecc3d6f70c741f",
+      "publishedAt": "2026-10-08T09:54:37Z"
+    },
+    {
       "version": "1.6.3-beta",
       "build": 38,
       "channel": "beta",
@@ -190,16 +200,6 @@
       "apkSize": 60378108,
       "sha256": "7c307a615e7d8bfc034d334aa337897cc48ec8c611eeb2ba41c0134c5ef01349",
       "publishedAt": "2026-08-24T08:27:32Z"
-    },
-    {
-      "version": "1.3.0",
-      "build": 17,
-      "channel": "stable",
-      "notes": "- **The walkthrough lets you practise scanning for real.** The guided tour's\n  roll call used to arrive with every child already marked present, so the one\n  thing you do on that screen every afternoon — hold a tag against the phone —\n  was the one thing it never showed you. Now it starts empty, like the real\n  screen. Hold any student tag against the phone and it reads, including the\n  cards you already carry, which the tour used to turn away as not registered\n  to a student on this trip. No tag to hand? Tap \"Skip\" in the top corner.\n  Either way all three children on the practice trip are marked present and\n  the tour carries on. Nothing about a real roll call changes.",
-      "apkUrl": "https://github.com/noma-srs/noma-driver-releases/releases/download/v1.3.0%2B17/noma-driver-1.3.0%2B17.apk",
-      "apkSize": 60378108,
-      "sha256": "f7b3812feb7b326d4457f56020be304b79bd01d24babad38044d43b9722bb038",
-      "publishedAt": "2026-08-24T07:38:03Z"
     }
   ]
 }
