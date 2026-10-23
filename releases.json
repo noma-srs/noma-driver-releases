@@ -2,6 +2,16 @@
   "schema": 1,
   "releases": [
     {
+      "version": "1.7.0-beta",
+      "build": 40,
+      "channel": "beta",
+      "notes": "- **The login screen now asks Driver or Staff.** Drivers: tap nothing new —\n  Driver is already chosen, and everything after you log in is exactly as\n  before.\n- **School staff can sign in with their email** to clock children in and out at\n  the gate. Pick Clock In or Clock Out, and each child taps their tag on the\n  phone. The phone buzzes and shows the child's name.\n- **Ten seconds to undo.** If a child taps with a borrowed tag, press UNDO on\n  their card before the countdown ends and nothing is sent.\n- **No signal at the gate is fine.** Taps are saved on the phone and sent as\n  soon as there is a connection. If any have still not gone after 15 minutes,\n  the phone rings — even with the screen off — until someone opens it and\n  presses Retry.\n- **Staff can see which schedules and buses a child is on** by tapping the\n  child on the Tags screen.\n\n---",
+      "apkUrl": "https://github.com/noma-srs/noma-driver-releases/releases/download/v1.7.0-beta%2B40/noma-driver-1.7.0-beta%2B40.apk",
+      "apkSize": 41161640,
+      "sha256": "e6b27d387bd17640eb334d03d4507ca5895649964545ecb86cc85a4cad48c03c",
+      "publishedAt": "2026-10-23T07:51:45Z"
+    },
+    {
       "version": "1.6.4-beta",
       "build": 39,
       "channel": "beta",
@@ -190,16 +200,6 @@
       "apkSize": 19688098,
       "sha256": "29fa203f250967674e2f00e7c06c2b5b82cca5efc1fbea8388bf3baa7e9ad8d4",
       "publishedAt": "2026-08-24T11:43:03Z"
-    },
-    {
-      "version": "1.3.0",
-      "build": 18,
-      "channel": "stable",
-      "notes": "- **Test update.** This update has no new features or fixes, it is just a test of the update system. ",
-      "apkUrl": "https://github.com/noma-srs/noma-driver-releases/releases/download/v1.3.0%2B18/noma-driver-1.3.0%2B18.apk",
-      "apkSize": 60378108,
-      "sha256": "7c307a615e7d8bfc034d334aa337897cc48ec8c611eeb2ba41c0134c5ef01349",
-      "publishedAt": "2026-08-24T08:27:32Z"
     }
   ]
 }
