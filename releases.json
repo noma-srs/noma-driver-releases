@@ -2,6 +2,16 @@
   "schema": 1,
   "releases": [
     {
+      "version": "1.7.0",
+      "build": 41,
+      "channel": "stable",
+      "notes": "Everything here has been running on beta builds since 1.6.1. This is the\nsame work, now on the stable channel for everybody, with a few fixes on top.\n\n- **An alarm an hour before your run, if the battery is low.** The app checks\n  the battery an hour before each of your next runs, and if it is at 40% or\n  less it rings — properly, like an alarm clock, over the lock screen — and\n  tells you which run is coming and what the battery is at. It works with the\n  phone locked, the app closed and no signal. It only rings on weekdays, never\n  while the phone is on charge, and never while a trip is running — you get a\n  silent notification instead.\n\n- **Plugging in answers the battery alarm.** Putting the phone on charge stops\n  the ring and clears the reminder, the same as tapping Dismiss. Dismissing\n  from the notification closes the alarm screen too, and the reminder can be\n  swiped away or goes by itself once the run starts.\n\n- **Snooze the battery alarm until a date, for the holidays.** Tap *Snooze\n  until…* on the alarm, or set it ahead from Profile → Pre-trip battery alarm.\n\n- **You hear about absences during the trip.** If a parent or the school\n  reports a child absent after you have set off, the app moves the child to\n  Absent and tells you, so you do not wait at their stop. If the absence is\n  taken back, the child comes back on your list. A child you have already\n  picked up, dropped off or marked yourself is not changed.\n\n- **Updates download themselves.** When a new version is out, the app downloads\n  it in the background and then asks: install now, or later. It never asks\n  while you are on a trip.\n\n- **The app walkthrough is in parts.** Tap App Walkthrough in Profile and pick\n  one: a pickup trip, a drop-off trip, or student tags.\n\n- **Logging out clears this phone.** The school's students, buses and\n  schedules, any unfinished roll call and any alarm snooze are removed, so the\n  next driver to sign in starts clean.\n\n- **The login screen now asks Driver or Staff.** Drivers: tap nothing new —\n  Driver is already chosen, and everything after you log in is as before.\n\n- **School staff can sign in with their email** to clock children in and out at\n  the gate. Each child taps their tag on the phone, which buzzes and shows the\n  child's name. There are ten seconds to press UNDO if the wrong tag was used.\n  Taps made with no signal are saved and sent when there is a connection; if\n  any are still stuck after 15 minutes the phone rings until someone presses\n  Retry. Staff can also see which schedules and buses a child is on from the\n  Tags screen.\n\n- **Alarms now stop when they should.** On the installed app, a cleared alarm\n  could stay on screen and keep ringing. Both the battery alarm and the stuck\n  clock-in alarm now go away as soon as they are dismissed, plugged in or\n  sorted out — including when the taps send by themselves in the background.\n\n- **Fixed:** a child whose tap was refused no longer shows as clocked in all\n  day; taps from a staff member who has signed out are never sent later; a\n  crash in Prepare Trip during the afternoon pickup walkthrough; schedule times\n  show as 06:30 again, not 06:30:00; notifications show the NoMa logo.\n\n---",
+      "apkUrl": "https://github.com/noma-srs/noma-driver-releases/releases/download/v1.7.0%2B41/noma-driver-1.7.0%2B41.apk",
+      "apkSize": 41178020,
+      "sha256": "8abc3484bc0740f8410b83966965752d4a7b525d3a7d291936f82d3f4d5cc050",
+      "publishedAt": "2026-11-03T07:45:50Z"
+    },
+    {
       "version": "1.7.0-beta",
       "build": 40,
       "channel": "beta",
@@ -190,16 +200,6 @@
       "apkSize": 60394684,
       "sha256": "fbf80d8d260b781044602da865683ea8a75277ad6c5ed3b90bc54372869262ba",
       "publishedAt": "2026-08-24T12:28:57Z"
-    },
-    {
-      "version": "1.4.0",
-      "build": 19,
-      "channel": "stable",
-      "notes": "- **The scanner starts reliably when you open a roll call.** Opening the roll\n  call straight after another screen that had been scanning could leave the\n  reader dead for the whole roll call — tags simply did nothing, and the only\n  way out was to back out of the screen and open it again. Fixed.\n\n- **Children reported absent now show on the roll call.** If a parent or the\n  school has already phoned a child in as absent, they appear on the scan roll\n  call marked as such, with who reported it and when — instead of sitting in\n  the list looking exactly like a child you have not scanned yet. They also\n  come out of the \"X of Y scanned\" count, so the count reaches the end when the\n  roll call is actually finished. If the child turns up anyway, scan their tag\n  as normal and they move across.\n\n- **Changing your bus now shows on the Home screen straight away.** Picking a\n  different bus in Profile used to leave the old number plate on the Home\n  header until the app was restarted.\n\n- **The running trip screen names the schedule.** The trip you are on now says\n  which run it is — \"Morning Pickup\", \"Afternoon Drop Off\" — under the Pickup\n  or Drop Off heading, so a bus doing two runs is not one glance away from\n  confusion.\n\n- **The end of a trip gives you a summary.** After ending a trip you now see\n  which run it was, when it started and ended, how long it took, and how many\n  children were picked up or dropped off and how many were absent.\n\n- **The app download is about a third of the size.** Around 20MB instead of\n  58MB, so an update over mobile data finishes far sooner.",
-      "apkUrl": "https://github.com/noma-srs/noma-driver-releases/releases/download/v1.4.0%2B19/noma-driver-1.4.0%2B19-armeabi-v7a.apk",
-      "apkSize": 19688098,
-      "sha256": "29fa203f250967674e2f00e7c06c2b5b82cca5efc1fbea8388bf3baa7e9ad8d4",
-      "publishedAt": "2026-08-24T11:43:03Z"
     }
   ]
 }
