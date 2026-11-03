@@ -2,6 +2,16 @@
   "schema": 1,
   "releases": [
     {
+      "version": "1.7.1",
+      "build": 42,
+      "channel": "stable",
+      "notes": "- **Filter the Tags list by grade.** Open the filter on the Tags screen and\n  pick a grade to see only that class — handy for finding who in Grade 3\n  still needs a tag. Each grade shows how many students it would leave, and\n  it works together with the tag-status and schedule filters and the search\n  box. Tap the grade again, or the × on its chip, to clear it.",
+      "apkUrl": "https://github.com/noma-srs/noma-driver-releases/releases/download/v1.7.1%2B42/noma-driver-1.7.1%2B42.apk",
+      "apkSize": 41194404,
+      "sha256": "0485b73c3ac298c82570020d8f29ff1405a08472f8c5ecdf955e10c9559c97e5",
+      "publishedAt": "2026-11-03T08:49:16Z"
+    },
+    {
       "version": "1.7.0",
       "build": 41,
       "channel": "stable",
@@ -190,16 +200,6 @@
       "apkSize": 60656956,
       "sha256": "9b4ae9d06cad06ab1367baa9b421af6bfca12a5739deed6c7b898df45f1aa6bf",
       "publishedAt": "2026-08-26T16:29:03Z"
-    },
-    {
-      "version": "1.4.1",
-      "build": 20,
-      "channel": "stable",
-      "notes": "- **Fixes version 1.4.0, which would not start on most phones.** That update\n  was built for one type of phone processor and crashed immediately on every\n  other, before the app was far enough along to offer an update out of it. If\n  your app stopped opening after updating to 1.4.0, install this version by\n  hand from the releases page — the app cannot repair itself once it is in that\n  state. Everything new in 1.4.0 is here and unchanged.",
-      "apkUrl": "https://github.com/noma-srs/noma-driver-releases/releases/download/v1.4.1%2B20/noma-driver-1.4.1%2B20.apk",
-      "apkSize": 60394684,
-      "sha256": "fbf80d8d260b781044602da865683ea8a75277ad6c5ed3b90bc54372869262ba",
-      "publishedAt": "2026-08-24T12:28:57Z"
     }
   ]
 }
